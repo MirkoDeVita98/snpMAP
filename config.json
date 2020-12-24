@@ -1,0 +1,19 @@
+{
+    "classification": "binary",
+    "use_polyphen": "True",
+    "retrain": "False",
+    "input":{
+        "data_dir": "data",
+        "dependencies_dir": "dependencies",
+        "case_path": "/home/anej/repos/studies/CBM/P2/data/case_processed_v2.vcf",
+        "clinvar_path": "/home/anej/repos/studies/CBM/P2/train_data/clinvar.vcf"
+    },
+    "output":{
+        "cache_dir": "cache",
+        "results_dir": "results",
+        "classification_dir": "classification"
+    },
+    "SeattleSeq":{
+        "java_classpath": "./:/home/anej/repos/studies/CBM/P2/dependencies/seattle138/httpunit-1.7.jar:/home/anej/repos/studies/CBM/P2/dependencies/seattle138/js-1.6R5.jar:/home/anej/repos/studies/CBM/P2/dependencies/seattle138/nekohtml-0.9.5.jar:/home/anej/repos/studies/CBM/P2/dependencies/seattle138/xercesImpl-2.6.1.jar:/home/anej/repos/studies/CBM/P2/dependencies/seattle138/"
+    }
+}

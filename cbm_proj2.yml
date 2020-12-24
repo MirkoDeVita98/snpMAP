@@ -1,0 +1,22 @@
+name: cbm_project2_env
+channels:
+  - bioconda
+  - defaults
+  - conda-forge
+  - r
+dependencies:
+  - python=3.7
+  - scipy
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - xgboost
+  - seaborn
+  - tqdm
+  - pip
+  - pip:
+    - prody-rhapsody
+    - imblearn
+    - myvariant
+  
